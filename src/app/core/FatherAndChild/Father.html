@@ -1,0 +1,9 @@
+<div>
+    <span>Store.ts Value</span>
+    Store: {{ store | json}}
+</div>
+
+<div padding>
+    <h2>Parent</h2>
+    <child [content]="i" (changeNumber)="numberChange($event)"></child>
+</div>
